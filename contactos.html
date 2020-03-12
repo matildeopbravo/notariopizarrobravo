@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="shortcut icon" type="image/png" href="fotos/logo.jpg"/>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+
+    <title> Luís Pizarro Bravo</title>
+    
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="docs/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+    </style>
+    
+  
+ <script>
+      function initMap() {
+        var cartorio = { lat:41.5312918, lng: -8.61601619999999};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: cartorio
+        });
+        var marker = new google.maps.Marker({
+          position: cartorio,
+          map: map
+
+
+        });
+        google.maps.event.addListener(marker, 'click', function () {
+  window.location.href = 'streetview.html';
+});
+      }
+    </script>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+
+  <body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!--Button appears when window resolution lowers --> 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> 
+          <!-- Navbar -->
+          <span id="nomevermelho"><a class="navbar-brand" href="#">Luís Pizarro Bravo</a> </span>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html" class="letrasbrancas">Home</a></li>
+            <li><a  href="about.html" class="letrasbrancas" >O Que fazemos</a></li>
+            <li><a href="quemsomos.html" class="letrasbrancas">Quem Somos</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" class="letrasbrancas" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Impressos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+               
+                
+                <li class="dropdown-header"> <strong> Registo Predial: </strong></li>
+                <li><a href="documentos/registopredial.pdf" download> Requerimento de Registo Predial </a></li>
+                <li><a href="documentos/certidaoregistopredial.pdf" download> Pedido de Certidão</a></li>
+                <li><a href="documentos/certidaonegativaregistopredial.pdf" download> Pedido de Certidão Negativa</a></li>
+
+                <li class="dropdown-header"> <strong> Registo Comercial: </strong></li>
+                <li><a href="documentos/registopordeposito-quotas.pdf" download> Impresso Para Registo de Quotas </a></li>
+                <li><a href="documentos/registoportranscricao.pdf" download>Impresso Para Registo de Alterações de Sede, Nome... </a></li>
+                <li><a href="documentos/registopordeposito.pdf" download> Impresso Para Registo Por Depósito</a> </li>
+                <li class="dropdown-header"> <strong> Documentos Fiscais:</strong></li>
+                <li><a href="documentos/decmodelo1imi.pdf" download> Declaração Modelo 1 IMI    </a></li>
+                <li><a href="documentos/decmodelo1imt.pdf" download> Declaração Modelo 1 IMT   </a></li>
+                <li><a href="documentos/decmodelo1is.pdf" download> Declaração Modelo 1 Imposto Selo   </a></li>
+                <li role="separator" class="divider"></li>
+                 <li><a href="documentos/registoautomovel.pdf" style="color: #8fb2ea" download >  Requerimento de Registo Automóvel </a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav">
+            <li><a href="contactos.html" class="letrasbrancas">Contactos</a></li></li>
+            </ul>
+            
+          <ul class="nav navbar-nav navbar-right">
+          
+            <li class="active"><a href="contactos.html" id="numerotelefone">Telefone: 253831831<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ <div class="floats">
+
+    <div id="map"></div>
+      <div class="likeandshare"><iframe id="fb-box" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCart%25C3%25B3rio-Notarial-em-Barcelos-Not%25C3%25A1rio-Lu%25C3%25ADs-Pizarro-Bravo-475473199233690%2F&tabs&width=400&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="550" height="260" " scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+
+
+
+<div class="sidetext">
+<h4> Localização:</h4>
+<p class="diminui"> Rua Dr. António Peixoto Pereira Machado, Nº 386, R/C <br> Barcelos, Portugal <br> 4750-309 <br> Coordenadas GPS: 41.531326, -8.615500 </p>
+<br>
+
+  <h4 id="contactos"> Contactos: </h4>
+  <p class="diminui"> Geral: +351253831831 <br> <span id="mailgrande"> +351912256028 </span></p>
+  <p class="diminui"> Pessoal: +351968052674</p>
+  <p class="diminui"> Email: l.pizarrobravo@sapo.pt (pessoal) <br> <span id="mailgrande"> notario.pizarro.barcelos@gmail.com (geral) </span></p>
+  <br>
+  <h4 id="horario"> Horário:</h4>
+  <p class="diminui"> Segunda a Sexta: 9:00 - 13:00/ 14:00 - 18:00 </p>
+  <p class="diminui"> Sábado: Encerrado (exceto escrituras com prévia marcação)</p>
+  <p class="diminui"> Domingo e Feriados: Encerrado</p>
+
+</div>
+
+
+</div>
+
+
+
+ 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="docs/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUlSvvYWM9BoItikPhAscaR92xwVDl8X4&callback=initMap">
+    </script>
+  </body>
+</html>

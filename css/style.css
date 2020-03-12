@@ -1,0 +1,379 @@
+  * { 
+font-family: 'Roboto', sans-serif;
+ }
+
+.container {
+font-size: 20px;  /* navbar letters */
+}
+
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+
+
+  }
+
+  .home {
+  background: url(../fotos/exterior2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+
+
+
+/* Navbar */
+
+.navbar  {
+  background-color: rgb(173, 176, 181);
+  font-color: blue;
+  
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: black;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: black; /*colo */
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: black;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: black;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: black;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: black;
+  background-color:black;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: black;
+}
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: black;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color:black;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: black;
+    background-color: black;
+  }
+}
+
+.dropdown-menu {
+  font-size: 20px;
+}
+
+  #nomevermelho {
+    color: #ffffff;
+  }
+  .dropdown-header {
+    background-color: black;
+    color: white;
+  }
+
+  /*homepage*/
+
+.serviços-home{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.sabermais {
+  font-size: 11px;
+}
+
+.listinsidealist {
+  font-size: 17px;
+
+}
+
+ .btn {
+  color: white;
+  background-color: firebrick;
+  margin-top: 6px;
+  margin-left: 1.3em;
+}
+
+.btn:hover, .btn:visited, .btn:link, .btn:active, .btn:focus{
+  background-color: firebrick; 
+  color:white;
+}
+
+ #escrituras-ativo, #testamentos-ativo, #procurações-ativo, #promoção-ativo, #atos-ativo, #inventários-ativo, #autorizações-ativo, #outros-ativo, #rcbe-ativo, #trademark-ativo {
+  display:none;
+
+  }
+
+  #rcbe-titulo, #trademark-titulo {
+
+    color: firebrick;
+  }
+
+ /* #foto_home {
+  
+  padding: 0px;
+  margin:70px;
+  width:624px;
+  margin-top: 25px;
+  height: 450px;
+  margin-right: 16px;
+
+ }  */
+
+ .mainpage > h3, div.serviços-home {                -------------------------------------------------------
+ margin-left: 115px;
+ }
+
+ .mainpage > h1 {
+  font-size: 53px;
+  color: firebrick;
+    text-align: center;
+}
+
+.mainpage > h2 {
+  font-size: 32px;
+  text-align: center;
+  
+ }
+
+
+ .mainpage > h3 { 
+  font-size: 27px;
+ }   
+ 
+ .aumenta { 
+  font-size: 23px;
+  margin-top: 7px;
+
+ }
+
+ #novocontacto {
+  position: absolute;
+  color: white;
+    top: 50%;
+  left: 30%;
+  font-size: 32px;
+
+ }
+
+ .blinking {
+   animation:blinkingText 1s infinite;
+ }
+ @keyframes blinkingText{
+    0%{     color: white;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: white;  }
+    100%{   color: white;    }
+}
+
+
+#numerotelefone {
+
+  background-color: firebrick;
+  color:white;
+  font-size: 20px;
+
+}
+
+.dropdown-header {
+  color:firebrick;
+  font-size: 21px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+
+}
+
+
+#mailgrande {
+
+ position: relative;
+ margin-left: 52px;
+}
+
+
+
+
+
+.mainpage > h3 {
+  color: firebrick;
+  font-weight: bold;
+  margin-left: 135px;
+}
+
+
+
+
+
+
+
+.diminui {
+  font-size: 18px;
+}
+
+ 
+/* .sidetext > h4 {
+  font-size: 22px;
+  color: firebrick;
+  
+} */
+
+/* .likeandshare {
+  
+ float: left;
+ margin-left:120px;
+ margin-top:39em;
+ position: absolute;
+
+
+ 
+
+ }
+
+
+ #localização, #contactos, #horario {
+  font-size : 22px;
+  color: firebrick;
+ }
+
+ 
+
+
+
+.localização {
+  margin-left: 180px; 
+  float: left;
+}
+
+
+
+.horario {
+ float:right;
+ margin-top: 130px;
+ margin-right: 200px;
+ 
+
+}
+.contactos {
+  
+  float: right;
+  margin-top: 45px;
+  margin-right: 280px;
+}
+ */
+
+/* #map {
+   width:420px;
+    height: 375px;
+    margin-left: 160px;
+    float: left;
+}
+*/
+
+
+.sidetext > h4 {
+  font-size: 22px;
+  color: firebrick;
+  
+}
+
+
+
+
+ #street-view, #map {
+   height: 400px;
+   width: 420px;
+   float: left;
+   margin-left: 45px;
+   margin-top: 50px;
+}
+
+
+.sidetext {
+  font-size: 17px;
+  margin-top: 42px;
+  margin-left: 32.5em;
+  position: absolute;
+
+  
+}
+.diminui {
+  font-size: 18px;
+}
+.likeandshare {
+
+float: left;
+margin-left: 48px;
+margin-top: 34em;
+position: absolute;
+ }
+
+
+
+
